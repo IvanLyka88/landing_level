@@ -1,0 +1,16 @@
+1. git init инициализация проекта
+
+2.git branch -M main -меням ветку на main
+
+3. https://github.com/IvanLyka88/landing_live_streaming.git  подключение проекта к удаленному репозиторию (адрес беру из гитхаба)
+   git remote origin https://github.com/IvanLyka88/landing_live_streaming.git
+
+
+4. Подключение шрифтов 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+5.git add .  --добавляет все файлы в репо
+
+6.  git push -u origin main --запушит файлы в репозиторий 
