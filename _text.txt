@@ -1,0 +1,65 @@
+*********************************
+git status -- нужен чтобы проверить состояние файлов
+
+
+
+********************************
+
+
+
+
+
+
+
+
+
+
+
+1. git init инициализация проекта
+
+2.git branch -M main -меням ветку на main
+
+3. https://github.com/IvanLyka88/landing_live_streaming.git  подключение проекта к удаленному репозиторию (адрес беру из гитхаба)
+   git remote origin https://github.com/IvanLyka88/landing_live_streaming.git
+
+
+4. Подключение шрифтов 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+5.git add .  --добавляет все файлы в репо
+
+5.1. git commit -m  "имя комита"  -- создание коммита   (не забыть ОБЯЗАТЕЛЬНО первый коомит)
+
+6.  git push -u origin main --запушит файлы в репозиторий 
+
+7.    .gitignore - в него писать файлы которые не должны попасть в github
+
+
+8.
+  "scripts": {
+    "sass:watch": "sass --style=expanded --watch styles:dist"
+  },
+sass:watch - скрипт для запуска
+--watch - будет мониторить изменения
+styles      --из какой папки
+dist        -- выходная папка в которую будет все собираться
+
+
+запуск    npm run sass:watch для мониторинга. (появится папка dist)
+
+
+
+**********
+
+ npm init -- инициализация проекта
+
+ npm i -D sass parcel -- установка sass и parcel
+
+
+
+ ******************
+ Создаем
+
+ _variables.scss    -- низнее плдчеркивание нужно чтобы файл не компилировался

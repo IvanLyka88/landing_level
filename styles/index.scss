@@ -1,0 +1,7 @@
+@use "variables" as v;
+@use 'importer'; //сюда попали инструкции из basic.scss которые через forvard перенаправились сюда
+
+//@use "variables" as v; - это я подключил variables и использую как  v (тоесть v.(имя_переменной))
+body {
+    background-color: v.$color_blue ;
+}
